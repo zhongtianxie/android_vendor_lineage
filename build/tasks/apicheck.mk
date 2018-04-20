@@ -42,6 +42,7 @@ $(INTERNAL_LINEAGE_PLATFORM_API_FILE): lineage-api-stubs-docs
 
 # Check that the API we're building hasn't broken the last-released
 # SDK version.
+
 $(eval $(call check-api, \
     checkpublicapi-lineage-last, \
     $(LINEAGE_SRC_API_DIR)/$(lineage_last_released_sdk_version).txt, \
