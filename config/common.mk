@@ -109,10 +109,10 @@ endif
 
 # Required Lineage packages
 PRODUCT_PACKAGES += \
-    BluetoothExt \
-    LineageParts \
-    Development \
-    Profiles
+#    BluetoothExt \
+    LineageParts
+#    Development \
+#    Profiles
 
 # Optional packages
 #PRODUCT_PACKAGES += \
