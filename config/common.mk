@@ -1,6 +1,6 @@
-PRODUCT_BRAND ?= LineageOS
+#PRODUCT_BRAND ?= LineageOS
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+#PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -104,8 +104,8 @@ include vendor/lineage/config/twrp.mk
 endif
 
 # Bootanimation
-PRODUCT_PACKAGES += \
-    bootanimation.zip
+#PRODUCT_PACKAGES += \
+#    bootanimation.zip
 
 # Required Lineage packages
 PRODUCT_PACKAGES += \
@@ -115,48 +115,48 @@ PRODUCT_PACKAGES += \
     Profiles
 
 # Optional packages
-PRODUCT_PACKAGES += \
-    libemoji \
-    LiveWallpapersPicker \
-    PhotoTable \
-    Terminal
+#PRODUCT_PACKAGES += \
+#    libemoji \
+#    LiveWallpapersPicker \
+#    PhotoTable \
+#    Terminal
 
 # Include explicitly to work around GMS issues
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full \
-    librsjni
+#PRODUCT_PACKAGES += \
+#    libprotobuf-cpp-full \
+#    librsjni
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
-    AudioFX \
-    LineageSettingsProvider \
-    LineageSetupWizard \
-    Eleven \
-    ExactCalculator \
-    Jelly \
-    LockClock \
-    Trebuchet \
-    Updater \
-    WallpaperPicker \
-    WeatherProvider
+    AudioFX
+#    LineageSettingsProvider \
+#    LineageSetupWizard \
+#    Eleven \
+#    ExactCalculator \
+#    Jelly \
+#    LockClock \
+#    Trebuchet \
+#    Updater \
+#    WallpaperPicker \
+#    WeatherProvider
 
 # Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
+#PRODUCT_PACKAGES += \
+#    Exchange2
 
 # Berry styles
-PRODUCT_PACKAGES += \
-    LineageDarkTheme \
-    LineageBlackAccent \
-    LineageBlueAccent \
-    LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
-    LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
+#PRODUCT_PACKAGES += \
+#    LineageDarkTheme \
+#    LineageBlackAccent \
+#    LineageBlueAccent \
+#    LineageBrownAccent \
+#    LineageCyanAccent \
+#    LineageGreenAccent \
+#    LineageOrangeAccent \
+#    LineagePinkAccent \
+#    LineagePurpleAccent \
+#    LineageRedAccent \
+#    LineageYellowAccent
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
