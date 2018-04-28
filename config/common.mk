@@ -109,10 +109,10 @@ endif
 
 # Required Lineage packages
 PRODUCT_PACKAGES += \
-#    BluetoothExt \
-    LineageParts
-#    Development \
-#    Profiles
+    BluetoothExt \
+    LineageParts \
+    Development \
+    Profiles
 
 # Optional packages
 #PRODUCT_PACKAGES += \
@@ -128,8 +128,8 @@ PRODUCT_PACKAGES += \
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
-    AudioFX
-#    LineageSettingsProvider \
+    AudioFX \
+    LineageSettingsProvider
 #    LineageSetupWizard \
 #    Eleven \
 #    ExactCalculator \
